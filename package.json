@@ -1,0 +1,26 @@
+{
+  "name": "foss4g-map",
+  "version": "0.0.0",
+  "description": "A map showing things at FOSS4G 2014",
+  "main": "assets/js/main.js",
+  "scripts": {
+    "build": "browserify assets/js/main.js > assets/js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JasonSanford/foss4g-map.git"
+  },
+  "keywords": [
+    "FOSS4G",
+    "map"
+  ],
+  "author": "Jason Sanford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonSanford/foss4g-map/issues"
+  },
+  "homepage": "https://github.com/JasonSanford/foss4g-map",
+  "dependencies": {
+    "xhr": "~1.13.0"
+  }
+}

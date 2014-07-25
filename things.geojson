@@ -1,6 +1,31 @@
 {
   "type": "FeatureCollection",
   "features": [
-
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DoubleTree Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65522956848145,
+          45.53050807819899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oregon Convention Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.66306161880492,
+          45.52901240119642
+        ]
+      }
+    }
   ]
 }
