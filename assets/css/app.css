@@ -7,3 +7,23 @@ html, body {
 #map-container {
   height: 100%;
 }
+
+.leaflet-popup-content .put{
+  position: absolute;
+  top: -18px;
+  left: -20px;
+  width: 53px;
+  height: 52px;
+  background-image: url('../img/a_bird_on_it.png');
+  background-repeat: no-repeat;
+}
+
+.leaflet-popup-content h3 {
+  text-align: center;
+}
+
+.leaflet-popup-content p {
+  margin-bottom: 0;
+  font-size: 13px;
+  text-align: center;
+}
