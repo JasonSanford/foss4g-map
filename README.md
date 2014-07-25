@@ -16,5 +16,5 @@ npm install
 After making changes in `assets/js/main.js`, be sure to run:
 
 ```
-npm build
+npm run build
 ```
