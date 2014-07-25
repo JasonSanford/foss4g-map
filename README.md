@@ -6,7 +6,7 @@ If you're staying in a different hotel or just want to change the map a bit, for
 
 ### Building
 
-Assets are bundled with browserify. Before building, install dependencies:
+JavaScript is bundled with browserify. Before building, install dependencies:
 
 ```
 npm install -g browserify

@@ -82,6 +82,21 @@
           45.568453
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Waterfront Bicycles",
+        "marker-symbol": "bicycle",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67081,
+          45.52139
+        ]
+      }
     }
   ]
 }
