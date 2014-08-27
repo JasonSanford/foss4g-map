@@ -4,7 +4,10 @@
   "description": "A map showing things at FOSS4G 2014",
   "main": "assets/js/main.js",
   "scripts": {
-    "build": "browserify assets/js/main.js > assets/js/bundle.js"
+    "build": "browserify assets/js/main.js > assets/js/bundle.js",
+    "watch": "watchify assets/js/main.js -o assets/js/bundle.js",
+    "serve": "serve -p 5000",
+    "dev": "npm run serve & npm run watch"
   },
   "repository": {
     "type": "git",
