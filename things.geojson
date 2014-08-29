@@ -56,7 +56,7 @@
       "type": "Feature",
       "properties": {
         "title": "Portland State University",
-        "description": "The location of the workshops",
+        "description": "The location of the workshops and js.geo",
         "marker-symbol": "star",
         "marker-color": "#5F3B23"
       },
@@ -95,6 +95,108 @@
         "coordinates": [
           -122.67081,
           45.52139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Natural Capital Center",
+		"description": "FOSS4G Welcome Reception",
+		"address": "721 NW 9th Ave #200, Portland, Oregon, 97209, USA",
+		"web": "http://www.eventbrite.com/e/you-are-here-foss4g-welcome-reception-hosted-by-ecotrust-and-point-97-tickets-12321175969",
+        "marker-symbol": "embassy",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68073737621307,
+          45.52852009679969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Spirit of 77",
+		"description": "Location Tech Meetup",
+		"address": "500 NE Martin Luther King Jr Blvd , Portland, Oregon, 97232, USA",
+		"web": "https://www.eventbrite.ca/e/locationtech-meetup-portland-tickets-12165801239",
+        "marker-symbol": "embassy",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.66150057315825,
+          45.52670868017022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "White Owl Social Club",
+		"description": "Null Island Party",
+		"address": "1305 SE 8th Ave, Portland, Oregon, 97214, USA",
+		"web": "http://maptimeparty.splashthat.com/",
+        "marker-symbol": "embassy",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.66150057315825,
+          45.52670868017022
+        ]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+        "title": "World Forestry Center",
+		"description": "FOSS4G Gala Event",
+		"address": "4033 SW Canyon Rd, Portland, Oregon, 97221, USA",
+		"web": "http://www.worldforestry.org/",
+        "marker-symbol": "embassy",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.71803081035614,
+          45.51068525047507
+        ]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+        "title": "The Refuge",
+		"description": "FOSS4G Wrap-up/WhereCampPDX kick-off",
+		"address": "116 SE Yamhill St, Portland, Oregon, 97217, USA",
+		"web": "http://www.refugepdx.com/",
+        "marker-symbol": "embassy",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.66448855400085,
+          45.515590866633325
+        ]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+        "title": "PDX International Airport",
+        "marker-symbol": "airport",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.66448855400085,
+          45.515590866633325
         ]
       }
     }
