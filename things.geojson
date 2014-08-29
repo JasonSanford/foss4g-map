@@ -199,6 +199,159 @@
           45.58731433313998
         ]
       }
+    },
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Veritable Quandary",
+        "marker-symbol": "restaurant",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67538905143736,
+          45.51392187740479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Habibi",
+        "marker-symbol": "restaurant",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68263638019562,
+          45.51996984853766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mother's",
+        "description": "Breakfast",
+        "marker-symbol": "restaurant",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6739352941513,
+          45.51995857262707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Voodoo Doughnut",
+        "marker-symbol": "restaurant",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67303943634033,
+          45.52268351864251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Stumptown Coffee",
+        "marker-symbol": "cafe",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67333984374999,
+          45.52175893106354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Powell's Books",
+        "marker-symbol": "library",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68161714076996,
+          45.52329238509177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ace Hotel Bar",
+        "marker-symbol": "bar",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68160641193391,
+          45.52201826813723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Robo Taco",
+        "marker-symbol": "restaurant",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65946209430695,
+          45.51739136482342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Potato Champion Truck",
+        "marker-symbol": "restaurant",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6532232761383,
+          45.51238816798644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Shanghai Tunnel",
+        "description": "Underground dive bar",
+        "marker-symbol": "restaurant",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67255127429962,
+          45.52263090024497
+        ]
+      }
     }
   ]
 }
