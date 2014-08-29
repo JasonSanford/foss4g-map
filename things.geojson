@@ -351,6 +351,22 @@
           45.52263090024497
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Salt & Straw",
+        "description": "Awesome Ice Cream",
+        "marker-symbol": "restaurant",
+        "marker-color": "#5F3B23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.698425,
+          45.528994
+        ]
+      }
     }
   ]
 }
