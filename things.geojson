@@ -42,7 +42,7 @@
         "title": "Eliot Center",
         "description": "The location of the code sprint",
         "marker-symbol": "star",
-        "marker-color": "#5F3B23"
+        "marker-color": "#E32028"
       },
       "geometry": {
         "type": "Point",
@@ -58,7 +58,7 @@
         "title": "Portland State University",
         "description": "The location of the workshops and js.geo",
         "marker-symbol": "star",
-        "marker-color": "#5F3B23"
+        "marker-color": "#E32028"
       },
       "geometry": {
         "type": "Point",
@@ -106,7 +106,7 @@
         "address": "721 NW 9th Ave #200, Portland, Oregon, 97209, USA",
         "web": "http://www.eventbrite.com/e/you-are-here-foss4g-welcome-reception-hosted-by-ecotrust-and-point-97-tickets-12321175969",
         "marker-symbol": "embassy",
-        "marker-color": "#5F3B23"
+        "marker-color": "#E32028"
       },
       "geometry": {
         "type": "Point",
@@ -124,7 +124,7 @@
         "address": "500 NE Martin Luther King Jr Blvd , Portland, Oregon, 97232, USA",
         "web": "https://www.eventbrite.ca/e/locationtech-meetup-portland-tickets-12165801239",
         "marker-symbol": "embassy",
-        "marker-color": "#5F3B23"
+        "marker-color": "#E32028"
       },
       "geometry": {
         "type": "Point",
@@ -142,7 +142,7 @@
         "address": "1305 SE 8th Ave, Portland, Oregon, 97214, USA",
         "web": "http://maptimeparty.splashthat.com/",
         "marker-symbol": "embassy",
-        "marker-color": "#5F3B23"
+        "marker-color": "#E32028"
       },
       "geometry": {
         "type": "Point",
@@ -159,7 +159,7 @@
         "address": "4033 SW Canyon Rd, Portland, Oregon, 97221, USA",
         "web": "http://www.worldforestry.org/",
         "marker-symbol": "embassy",
-        "marker-color": "#5F3B23"
+        "marker-color": "#E32028"
       },
       "geometry": {
         "type": "Point",
@@ -176,7 +176,7 @@
         "address": "116 SE Yamhill St, Portland, Oregon, 97217, USA",
         "web": "http://www.refugepdx.com/",
         "marker-symbol": "embassy",
-        "marker-color": "#5F3B23"
+        "marker-color": "#E32028"
       },
       "geometry": {
         "type": "Point",
