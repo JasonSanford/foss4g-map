@@ -16,7 +16,12 @@ map.attributionControl
 var geojson_layer_options = {
   pointToLayer: L.mapbox.marker.style,
   onEachFeature: function (feature, layer) {
-    var html = '<h3><a href="'+ feature.properties.web + '">' + feature.properties.title + '</h3></a>';
+    var html = '';
+    if (feature.properties.web) {
+      html += '<h3><a href="'+ feature.properties.web + '">' + feature.properties.title + '</a></h3>';
+    } else {
+      html += '<h3>' + feature.properties.title + '</h3>';
+    }
     if (feature.properties.description) {
       html += '<p>' + feature.properties.description + '</p>' +
       '<p>'+ feature.properties.address + '</p>';
