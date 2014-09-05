@@ -10,8 +10,8 @@ html, body {
 
 .leaflet-popup-content .put{
   position: absolute;
-  top: -18px;
-  left: -20px;
+  top: -27px;
+  left: -15px;
   width: 53px;
   height: 52px;
   background-image: url('../img/a_bird_on_it.png');
