@@ -10,7 +10,7 @@ var geojson_layer_options = {
     var html = '<h3>' + feature.properties.title + '</h3>';
     if (feature.properties.description) {
       html += '<p>' + feature.properties.description + '</p>' +
-      '<p><a href="'+ feature.properties.web + '">Link</p>';
+      '<p><a href="'+ feature.properties.web + '">More...</p>';
     }
     html += '<div class="put"></div>';
     layer.bindPopup(html);
