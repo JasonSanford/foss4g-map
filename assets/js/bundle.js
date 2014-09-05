@@ -1,15 +1,26 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/Users/rafa/htdocs/foss4g-map/assets/js/main.js":[function(require,module,exports){
 var xhr = require('xhr');
 
-var map = new L.mapbox.Map('map-container', 'jcsanford.j25ef8lg');
+var map = new L.mapbox.Map('map-container', 'grafa.jdib780o', {
+        // remove the 'i'
+        infoControl: false,
+        // create a new attribution control
+        attributionControl: true
+    });
+
 L.control.locate().addTo(map);
+
+// Credit Foursquare for their wonderful data
+map.attributionControl
+    .addAttribution('Credits: <a href="https://github.com/JasonSanford/foss4g-map">Jason Sanford</a>');
 
 var geojson_layer_options = {
   pointToLayer: L.mapbox.marker.style,
   onEachFeature: function (feature, layer) {
-    var html = '<h3>' + feature.properties.title + '</h3>';
+    var html = '<h3><a href="'+ feature.properties.web + '">' + feature.properties.title + '</h3></a>';
     if (feature.properties.description) {
-      html += '<p>' + feature.properties.description + '</p>';
+      html += '<p>' + feature.properties.description + '</p>' +
+      '<p>'+ feature.properties.address + '</p>';
     }
     html += '<div class="put"></div>';
     layer.bindPopup(html);
@@ -37,7 +48,7 @@ module.exports = {
   map: map
 };
 
-},{"xhr":2}],2:[function(require,module,exports){
+},{"xhr":"/Users/rafa/htdocs/foss4g-map/node_modules/xhr/index.js"}],"/Users/rafa/htdocs/foss4g-map/node_modules/xhr/index.js":[function(require,module,exports){
 var window = require("global/window")
 var once = require("once")
 
@@ -176,7 +187,7 @@ function createXHR(options, callback) {
 
 function noop() {}
 
-},{"global/window":3,"once":4}],3:[function(require,module,exports){
+},{"global/window":"/Users/rafa/htdocs/foss4g-map/node_modules/xhr/node_modules/global/window.js","once":"/Users/rafa/htdocs/foss4g-map/node_modules/xhr/node_modules/once/once.js"}],"/Users/rafa/htdocs/foss4g-map/node_modules/xhr/node_modules/global/window.js":[function(require,module,exports){
 (function (global){
 if (typeof window !== "undefined") {
     module.exports = window
@@ -186,8 +197,8 @@ if (typeof window !== "undefined") {
     module.exports = {}
 }
 
-}).call(this,typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],4:[function(require,module,exports){
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{}],"/Users/rafa/htdocs/foss4g-map/node_modules/xhr/node_modules/once/once.js":[function(require,module,exports){
 module.exports = once
 
 once.proto = once(function () {
@@ -208,4 +219,4 @@ function once (fn) {
   }
 }
 
-},{}]},{},[1])
+},{}]},{},["/Users/rafa/htdocs/foss4g-map/assets/js/main.js"]);
