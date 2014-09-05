@@ -40,7 +40,7 @@
       "type": "Feature",
       "properties": {
         "title": "Eliot Center",
-        "description": "The location of the code sprint",
+        "description": "The location of the FOSS4G code sprint and WhereCampPDX 7",
         "marker-symbol": "star",
         "marker-color": "#E32028"
       },
@@ -56,7 +56,7 @@
       "type": "Feature",
       "properties": {
         "title": "Portland State University",
-        "description": "The location of the workshops and js.geo",
+        "description": "The location of the FOSS4G workshops and js.geo conference",
         "marker-symbol": "star",
         "marker-color": "#E32028"
       },
@@ -102,7 +102,7 @@
       "type": "Feature",
       "properties": {
         "title": "Ecotrust",
-        "description": "FOSS4G Welcome Reception <a href='#'>link</a>",
+        "description": "FOSS4G Welcome Reception",
         "address": "721 NW 9th Ave #200, Portland, Oregon, 97209, USA",
         "web": "http://www.eventbrite.com/e/you-are-here-foss4g-welcome-reception-hosted-by-ecotrust-and-point-97-tickets-12321175969",
         "marker-symbol": "embassy",
@@ -138,7 +138,7 @@
       "type": "Feature",
       "properties": {
         "title": "White Owl Social Club",
-        "description": "Null Island Party",
+        "description": "Maptime Null Island Party",
         "address": "1305 SE 8th Ave, Portland, Oregon, 97214, USA",
         "web": "http://maptimeparty.splashthat.com/",
         "marker-symbol": "embassy",
