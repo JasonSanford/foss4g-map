@@ -1,6 +1,6 @@
 var xhr = require('xhr');
 
-var map = new L.mapbox.Map('map-container', 'jcsanford.j25ef8lg');
+var map = new L.mapbox.Map('map-container', 'grafa.jdib780o');
 L.control.locate().addTo(map);
 
 var geojson_layer_options = {
@@ -8,7 +8,8 @@ var geojson_layer_options = {
   onEachFeature: function (feature, layer) {
     var html = '<h3>' + feature.properties.title + '</h3>';
     if (feature.properties.description) {
-      html += '<p>' + feature.properties.description + '</p>';
+      html += '<p>' + feature.properties.description + '</p>' +
+      '<p><a href="'+ feature.properties.web + '">Link</p>';
     }
     html += '<div class="put"></div>';
     layer.bindPopup(html);

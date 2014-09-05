@@ -101,8 +101,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Natural Capital Center",
-        "description": "FOSS4G Welcome Reception",
+        "title": "Ecotrust",
+        "description": "FOSS4G Welcome Reception <a href='#'>link</a>",
         "address": "721 NW 9th Ave #200, Portland, Oregon, 97209, USA",
         "web": "http://www.eventbrite.com/e/you-are-here-foss4g-welcome-reception-hosted-by-ecotrust-and-point-97-tickets-12321175969",
         "marker-symbol": "embassy",
