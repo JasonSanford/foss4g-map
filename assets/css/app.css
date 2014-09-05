@@ -10,20 +10,24 @@ html, body {
 
 .leaflet-popup-content .put{
   position: absolute;
-  top: -18px;
-  left: -20px;
+  top: -27px;
+  left: -15px;
   width: 53px;
   height: 52px;
   background-image: url('../img/a_bird_on_it.png');
   background-repeat: no-repeat;
 }
 
-.leaflet-popup-content h3 {
-  text-align: center;
-}
 
 .leaflet-popup-content p {
   margin-bottom: 0;
   font-size: 13px;
   text-align: center;
 }
+
+.leaflet-popup-content {background: #23344c; color: #fff; border-color: #fff; border-radius:12px; margin: 6px;}
+.leaflet-popup-content-wrapper {border-radius: 12px; background: #141d2b; color: #fff;}
+.leaflet-popup-content a {color: #bada55;}
+.leaflet-popup-content h3 {font-size:22px;text-align: center;}
+.leaflet-popup-content a:hover {color: #d8fc62;}
+.leaflet-popup-tip {border-top: 10px solid #141d2b;}
