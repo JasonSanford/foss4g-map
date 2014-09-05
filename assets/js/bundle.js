@@ -24,8 +24,10 @@ var geojson_layer_options = {
       html += '<h3>' + feature.properties.title + '</h3>';
     }
     if (feature.properties.description) {
-      html += '<p>' + feature.properties.description + '</p>' +
-      '<p>'+ feature.properties.address + '</p>';
+      html += '<p>' + feature.properties.description + '</p>';
+    }
+    if (feature.properties.address) {
+      html += '<p>'+ feature.properties.address + '</p>';
     }
     html += '<div class="put"></div>';
     layer.bindPopup(html);
