@@ -17,10 +17,10 @@ map.attributionControl
 var geojson_layer_options = {
   pointToLayer: L.mapbox.marker.style,
   onEachFeature: function (feature, layer) {
-    var html = '<h3>' + feature.properties.title + '</h3>';
+    var html = '<h3><a href="'+ feature.properties.web + '">' + feature.properties.title + '</h3></a>';
     if (feature.properties.description) {
       html += '<p>' + feature.properties.description + '</p>' +
-      '<p><a href="'+ feature.properties.web + '">More...</p>';
+      '<p>'+ feature.properties.address + '</p>';
     }
     html += '<div class="put"></div>';
     layer.bindPopup(html);

@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "title": "DoubleTree Hotel",
-        "address": "1000 NE Multnomah Street, Portland, Oregon, 97232, USA",
+        "address": "1000 NE Multnomah Street, Portland, Oregon, 97232",
         "phone": "+1-503-281-6111",
         "marker-symbol": "lodging",
         "marker-color": "#23344c"
@@ -23,7 +23,7 @@
       "properties": {
         "title": "Oregon Convention Center",
         "description": "The location of the 2014 FOSS4G Conference",
-        "address": "777 NE Martin Luther King Jr Blvd, Portland, Oregon, 97232, USA",
+        "address": "777 NE Martin Luther King Jr Blvd, Portland, Oregon, 97232",
         "marker-symbol": "star",
         "marker-size": "large",
         "marker-color": "#d85054"
@@ -103,7 +103,7 @@
       "properties": {
         "title": "Ecotrust",
         "description": "FOSS4G Welcome Reception",
-        "address": "721 NW 9th Ave #200, Portland, Oregon, 97209, USA",
+        "address": "721 NW 9th Ave #200, Portland, Oregon, 97209",
         "web": "http://www.eventbrite.com/e/you-are-here-foss4g-welcome-reception-hosted-by-ecotrust-and-point-97-tickets-12321175969",
         "marker-symbol": "embassy",
         "marker-color": "#d85054"
@@ -121,7 +121,7 @@
       "properties": {
         "title": "Spirit of 77",
         "description": "Location Tech Meetup",
-        "address": "500 NE Martin Luther King Jr Blvd , Portland, Oregon, 97232, USA",
+        "address": "500 NE Martin Luther King Jr Blvd , Portland, Oregon, 97232",
         "web": "https://www.eventbrite.ca/e/locationtech-meetup-portland-tickets-12165801239",
         "marker-symbol": "embassy",
         "marker-color": "#d85054"
@@ -139,7 +139,7 @@
       "properties": {
         "title": "White Owl Social Club",
         "description": "Maptime Null Island Party",
-        "address": "1305 SE 8th Ave, Portland, Oregon, 97214, USA",
+        "address": "1305 SE 8th Ave, Portland, Oregon, 97214",
         "web": "http://maptimeparty.splashthat.com/",
         "marker-symbol": "embassy",
         "marker-color": "#d85054"
@@ -156,7 +156,7 @@
       "properties": {
         "title": "World Forestry Center",
         "description": "FOSS4G Gala Event",
-        "address": "4033 SW Canyon Rd, Portland, Oregon, 97221, USA",
+        "address": "4033 SW Canyon Rd, Portland, Oregon, 97221",
         "web": "http://www.worldforestry.org/",
         "marker-symbol": "embassy",
         "marker-color": "#d85054"
@@ -173,7 +173,7 @@
       "properties": {
         "title": "The Refuge",
         "description": "FOSS4G Wrap-up/WhereCampPDX kick-off",
-        "address": "116 SE Yamhill St, Portland, Oregon, 97217, USA",
+        "address": "116 SE Yamhill St, Portland, Oregon, 97217",
         "web": "http://foss4gparty.splashthat.com/",
         "marker-symbol": "embassy",
         "marker-color": "#d85054"
@@ -373,7 +373,7 @@
       "properties": {
         "title": "Commons Brewery Tap Room",
         "description": "Thur-Fri(5pm-9pm), Sat(2pm-9pm), Sun(2pm-6pm)",
-        "address": "1810 SE 10th Ave, Portland, Oregon, 97214, USA",
+        "address": "1810 SE 10th Ave, Portland, Oregon, 97214",
         "web": "http://www.commonsbrewery.com/",
         "marker-symbol": "beer",
         "marker-color": "#23344c"
@@ -391,7 +391,7 @@
       "properties": {
         "title": "The Sidebar - Lompoc Brewery",
         "description": "Wed-Thur(4pm-10pm), Fri-Sat(4pm-11pm)",
-        "address": "1810 SE 10th Ave, Portland, Oregon, 97214, USA",
+        "address": "1810 SE 10th Ave, Portland, Oregon, 97214",
         "web": "http://www.lompocbrewing.com/sidebar/",
         "marker-symbol": "beer",
         "marker-color": "#23344c"
@@ -409,7 +409,7 @@
       "properties": {
         "title": "Occidental Brewing",
         "description": "Wed-Thur(4pm-8pm), Fri(3pm-8pm), Sat(12pm-8pm), Sun(12pm-6pm)",
-        "address": "6635 N Baltimore Ave, Portland, Oregon, 97203, USA",
+        "address": "6635 N Baltimore Ave, Portland, Oregon, 97203",
         "web": "http://www.occidentalbrewing.com",
         "marker-symbol": "beer",
         "marker-color": "#23344c"
@@ -427,7 +427,7 @@
       "properties": {
         "title": "Hair of the Dog Brewing Co",
         "description": "Tue-Sat(11:30am-10pm), Sun(11:30pm-8pm)",
-        "address": "61 SE Yamhill St, Portland, Oregon, 97214, USA",
+        "address": "61 SE Yamhill St, Portland, Oregon, 97214",
         "web": "http://hairofthedog.com",
         "marker-symbol": "beer",
         "marker-color": "#23344c"
@@ -445,7 +445,7 @@
       "properties": {
         "title": "Ground Breaker Brewing",
         "description": "Gluten Free gastropub and beer Thur-Sun(12-9)",
-        "address": "2030 SE 7th, Portland, Oregon, 97214, USA",
+        "address": "2030 SE 7th, Portland, Oregon, 97214",
         "web": "http://www.groundbreakerbrewing.com",
         "marker-symbol": "beer",
         "marker-color": "#23344c"
@@ -463,7 +463,7 @@
       "properties": {
         "title": "Gigantic Brewing",
         "description": "Low-key taproom and patio Mon-Fri(3pm-9pm), Sat(12pm-9pm), Sun(12pm-8pm)",
-        "address": "5224 SE 26th Ave, Portland, Oregon, 97202, USA",
+        "address": "5224 SE 26th Ave, Portland, Oregon, 97202",
         "web": "http://giganticbrewing.com",
         "marker-symbol": "beer",
         "marker-color": "#23344c"
@@ -481,7 +481,7 @@
       "properties": {
         "title": "Base Camp Brewing",
         "description": "Sun-Wed(12pm-9pm), Thur-Sat(11am-12pm)",
-        "address": "930 SE Oak Street, Portland, Oregon, 97214, USA",
+        "address": "930 SE Oak Street, Portland, Oregon, 97214",
         "web": "http://basecampbrewingco.com",
         "marker-symbol": "beer",
         "marker-color": "#23344c"
@@ -499,7 +499,7 @@
       "properties": {
         "title": "Baerlic Brewing",
         "description": "Tues-Thurs(4pm-10pm), Fri(2pm-11pm), Sat(12pm-11pm), Sun(12pm-10pm)",
-        "address": "2235 SE 11TH AVE, Portland, Oregon, 97214, USA",
+        "address": "2235 SE 11TH AVE, Portland, Oregon, 97214",
         "web": "http://baerlicbrewing.com/",
         "marker-symbol": "beer",
         "marker-color": "#23344c"
@@ -517,7 +517,7 @@
       "properties": {
         "title": "Cascade Brewing Barrel House",
         "description": "Sours Sun-Mon(12pm-10pm), Tues-Thurs(12pm-11pm), Fri-Sat(12pm-12am)",
-        "address": "939 SE BELMONT STREET, Portland, Oregon, 97214, USA",
+        "address": "939 SE BELMONT STREET, Portland, Oregon, 97214",
         "web": "http://cascadebrewingbarrelhouse.com",
         "marker-symbol": "beer",
         "marker-color": "#23344c"
@@ -535,7 +535,7 @@
       "properties": {
         "title": "Upright Brewing",
         "description": "Belgian and French Farm Ales Thur(5-9), Fri(4:30-9), Sat(1-8), Sun(1-6)",
-        "address": "240 N Broadway, Portland, Oregon, 97227, USA",
+        "address": "240 N Broadway, Portland, Oregon, 97227",
         "web": "http://www.uprightbrewing.com/",
         "marker-symbol": "beer",
         "marker-color": "#23344c"
@@ -553,7 +553,7 @@
       "properties": {
         "title": "Lucky Laborador - Hawthorne Brew Pub",
         "description": "Mon-Sat(11am-12am), Sun(12pm-10pm)",
-        "address": "915 SE HAWTHORNE BLVD., Portland, Oregon, 97214, USA",
+        "address": "915 SE HAWTHORNE BLVD., Portland, Oregon, 97214",
         "web": "http://luckylab.com/hawthorne-brew-pub/",
         "marker-symbol": "beer",
         "marker-color": "#23344c"
@@ -571,7 +571,7 @@
       "properties": {
         "title": "Hopworks Urban Brewery",
         "description": "Sun-Thur(11am-11pm), Fri-Sat(11am-12am)",
-        "address": "2944 SE Powell Blvd, Portland, Oregon, 97202, USA",
+        "address": "2944 SE Powell Blvd, Portland, Oregon, 97202",
         "web": "http://hopworksbeer.com/general-info/hub",
         "marker-symbol": "beer",
         "marker-color": "#23344c"
