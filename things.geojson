@@ -624,7 +624,7 @@
         "title": "Ristretto Roasters",
         "address": "555 NE Couch St, Portland, Oregon, 97232",
         "web": "http://ristrettoroasters.com/",
-        "marker-symbol": "coffee",
+        "marker-symbol": "cafe",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -641,7 +641,7 @@
         "title": "Coava Espresso Bar",
         "address": "2631 SE Hawthorne Blvd. Portland, OR 97214",
         "web": "http://coavacoffee.com",
-        "marker-symbol": "coffee",
+        "marker-symbol": "cafe",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -658,7 +658,7 @@
         "title": "Courier Coffee",
         "address": "923 SW Oak Portland, OR",
         "web": "http://couriercoffeeroasters.com/",
-        "marker-symbol": "coffee",
+        "marker-symbol": "cafe",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -675,7 +675,7 @@
         "title": "Water Avenue Coffee Company",
         "address": "1028 SE Water Avenue Suite 145, Portland, OR 97241",
         "web": "http://wateravenuecoffee.com",
-        "marker-symbol": "coffee",
+        "marker-symbol": "cafe",
         "marker-color": "#23344c"
       },
       "geometry": {
