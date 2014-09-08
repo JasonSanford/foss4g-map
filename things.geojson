@@ -583,6 +583,108 @@
           45.51238440884337
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Blossoming Lotus",
+        "address": "1713 NE 15th Ave, Portland, Oregon, 97212",
+        "web": "http://blpdx.com/",
+        "marker-symbol": "restaurant",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6506268978119,
+          45.535287965154644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Cafe Yumm - PSU Rec Center",
+        "address": "1806 SW 6th Ave, Portland, Oregon, 97201",
+        "web": "http://www.cafeyumm.com/portland",
+        "marker-symbol": "restaurant",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68251299858093,
+          45.5115273176711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ristretto Roasters",
+        "address": "555 NE Couch St, Portland, Oregon, 97232",
+        "web": "http://ristrettoroasters.com/",
+        "marker-symbol": "cafe",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6598107814789,
+          45.523750909796384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Coava Espresso Bar",
+        "address": "2631 SE Hawthorne Blvd. Portland, OR 97214",
+        "web": "http://coavacoffee.com",
+        "marker-symbol": "cafe",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63850331306458,
+          45.51216637811636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Courier Coffee",
+        "address": "923 SW Oak Portland, OR",
+        "web": "http://couriercoffeeroasters.com/",
+        "marker-symbol": "cafe",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68054962158202,
+          45.522751170795615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Water Avenue Coffee Company",
+        "address": "1028 SE Water Avenue Suite 145, Portland, OR 97241",
+        "web": "http://wateravenuecoffee.com",
+        "marker-symbol": "cafe",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.66565799713135,
+          45.51535405360755
+        ]
+      }
     }
   ]
 }
