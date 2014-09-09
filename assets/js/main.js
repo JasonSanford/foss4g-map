@@ -7,7 +7,12 @@ var map = new L.mapbox.Map('map-container', 'grafa.jdib780o', {
         attributionControl: true
     });
 
-L.control.locate().addTo(map);
+var locate_options = {
+  locateOptions: {
+    enableHighAccuracy: true
+  }
+};
+L.control.locate(locate_options).addTo(map);
 
 // Credit Foursquare for their wonderful data
 map.attributionControl
