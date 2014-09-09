@@ -551,6 +551,24 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Tugboat Brewing",
+        "description": "Mon: 5-10pm / Tue: 4pm-12 midnight / Wed: 4pm-12 midnight / Thu: 4pm-12 midnight / Fri: 4pm-1am / Sat: 4pm-1am ",
+        "address": "711 SW Ankeny St, Portland, Oregon, 97227",
+        "web": "http://d2m.com/Tugwebsite/",
+        "marker-symbol": "beer",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.678104,
+          45.5226124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Lucky Laborador - Hawthorne Brew Pub",
         "description": "Mon-Sat(11am-12am), Sun(12pm-10pm)",
         "address": "915 SE HAWTHORNE BLVD., Portland, Oregon, 97214",
